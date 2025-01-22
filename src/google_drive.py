@@ -74,18 +74,3 @@ def download_files(service, folder_id, download_path):
                 print(f"Downloading {file_name}: {int(status.progress() * 100)}% complete.")
 
     print("All matching files have been downloaded.")
-
-if __name__ == "__main__":
-    # Authenticate and build the service
-    service = authenticate_google_drive()
-
-    # Get the folder ID
-    folder_id = get_folder_id(service)
-    if not folder_id:
-        exit("Folder not found. Exiting.")
-
-    # Define the download path
-    download_path = "downloads"
-
-    # Download files containing 'interview' in the name
-    download_files(service, folder_id, download_path)

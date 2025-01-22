@@ -1,4 +1,5 @@
-from src.google_drive import authenticate_google_drive, get_folder_id_by_path, download_files
+# Import functions from google_drive.py
+from google_drive import authenticate_google_drive, get_folder_id_by_path, download_files
 
 if __name__ == "__main__":
     # Authenticate with Google Drive
