@@ -1,0 +1,29 @@
+# API Credentials 
+config/crednetials.json
+
+# Configuration files with sensitive settings
+config/settings.yaml
+
+# Python virtual environment
+venv/
+.env
+
+# Byte-compiled Python Files
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw and Processed Data
+data/raw/
+data/processed/
+data/insights/
+
+# Application Logs
+logs/
+*.log
+
+# Windows
+Thumbs.db
+
+# VC Code
+.vscode/
